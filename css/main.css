@@ -10,7 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 @font-face {font-family:Century Gothic;
-             src:url(font/ufonts.com_century-gothic-bold-2.eot); }
+             src: local(Century Gothic), url("ufonts.com_century-gothic-bold-2.eot"); }
 
 html,
 button,
