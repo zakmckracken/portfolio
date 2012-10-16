@@ -40,10 +40,16 @@ body {
 #content_text a{text-decoration:underline;}
 
 #menu{width:200px;border-top:1px dotted #000;height:300px;margin:22px 0px 0px 0px;font-size:18px;font-family:Century Gothic;}
+#menu ul{list-style-type:none;;padding:0;}
+#menu ul li{line-height:30px;position:relative;}
+#mainnavi{margin:19px 0px 0px 0px;}
 
-#menu ul{list-style-type:none;margin:19px 0px 0px 0px;padding:0;}
+.without_subnavi{width:100px;}
 
-#menu ul li{line-height:30px;}
+#subnavi{position:absolute;left:96px;top:0px; width:100px;margin:0;}
+#subnavi li {float:left; font-size:14px;color:#999;}
+#subnavi li a{color:#999;}
+#subnavi li a:hover{color:#000;}
 
 footer{border-top:1px dotted #000;margin:0px 0px 0px 230px; height:30px; width:734px; background-color:#FFF;clear:both;}
 
@@ -61,9 +67,43 @@ h1{font-size:36px; line-height:34px;}
 
 h2{font-family:Century Gothic;font-size:36px; font-weight:normal;line-height: 68px;}
 
-a {text-decoration: none; color:#000;}
+h3{font-family:Century Gothic;font-size:24px; font-weight:normal;}
 
+h4{font-size:18px; font-weight:bold;}
+
+a {text-decoration: none; color:#000;}
 a:hover {color:#999;}
+
+
+a.xing {display:block; background-image:url(../img/xing_bw.png); width:70px; height:30px; }
+a.xing:hover {display:block;background-image: url(../img/xing.png); width:70px; height:30px; }
+
+a.linkedin {display:block; background-image:url(../img/linkedin_bw.png); width:92px; height:30px; }
+a.linkedin:hover {display:block;background-image:url(../img/linkedin.png); width:92px; height:30px; }
+
+a.flickr {display:block; background-image:url(../img/flickr_bw.png); width:73px; height:30px; }
+a.flickr:hover {display:block;background-image:url(../img/flickr.png); width:73px; height:30px; }
+
+a.vimeo {display:block; background-image:url(../img/vimeo_bw.png); width:90px; height:30px; }
+a.vimeo:hover {display:block;background-image:url(../img/vimeo.png); width:90px; height:30px; }
+
+#head_navi {list-style-type:none;margin:0;padding:0;line-height:0.5;}
+#head_navi li {float:left; font-size:18px; color:#000;margin: 0px 10px 0px 0px;}
+#head_navi li a {text-decoration:none; font-family:Century Gothic;}
+
+#video_content{clear:both;margin:0;padding:29px 0px 0px 0px;}
+.tr_videos {align:left; vertical-align:top; height:310px;}
+.tr_videos td ul {padding:0; list-style-type:none;}
+.tr_videos td ul li {margin:0px 0px 10px 0px;}
+
+@-moz-document url-prefix() { 
+  #video_content {
+    padding:26px 0px 0px 0px;
+  }
+}
+
+/*background-color:#a03;
+
 
 #contact{font-family: Century Gothic; font-size:14px;}
 /*
