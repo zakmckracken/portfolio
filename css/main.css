@@ -40,6 +40,7 @@ body {
 #content_text a{text-decoration:underline;}
 
 #menu{width:200px;border-top:1px dotted #000;height:300px;margin:22px 0px 0px 0px;font-size:18px;font-family:Century Gothic;}
+
 #menu ul{list-style-type:none;;padding:0;}
 #menu ul li{line-height:30px;position:relative;}
 #mainnavi{margin:19px 0px 0px 0px;}
@@ -103,7 +104,6 @@ a.vimeo:hover {display:block;background-image:url(../img/vimeo.png); width:90px;
 }
 
 /*background-color:#a03;
-
 
 #contact{font-family: Century Gothic; font-size:14px;}
 /*
