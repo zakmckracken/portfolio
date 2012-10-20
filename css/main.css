@@ -78,6 +78,8 @@ h4{font-size:18px; font-weight:bold;}
 
 h5{font-family:Century Gothic;font-size:14px; font-weight:normal;}
 
+h6{font-family:Century Gothic;font-size:18px; font-weight:normal; text-align:right; }
+
 a {text-decoration: none; color:#000;}
 a:hover {color:#999;}
 
@@ -102,6 +104,17 @@ a.vimeo:hover {display:block;background-image:url(../img/vimeo.png); width:90px;
 .tr_videos {align:left; vertical-align:top; height:310px;}
 .tr_videos td ul {padding:0; list-style-type:none;}
 .tr_videos td ul li {margin:0px 0px 10px 0px;}
+
+#gallery{width:734px; padding:26px 0px 0px 0px;}
+
+#gallery1{width:568px; float:left; margin-bottom:10px;}
+#gallery1_text{width:166px; float:left; margin-top:-33px;}
+
+#lightboxgallery{width:568px;list-style-type:none;}
+#lightboxgallery ul {padding:0; list-style-type:none;}
+#lightboxgallery ul li{float:left;margin:0 7px 7px 0}
+
+
 
 @-moz-document url-prefix() { 
   #video_content {
