@@ -9,8 +9,19 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@font-face {font-family:Century Gothic;
-             src: local(Century Gothic), url("ufonts.com_century-gothic-bold-2.eot"); }
+@font-face {
+        font-family: 'CenturyGothic';
+        src: url('../fonts/Centurygothic.eot');
+        src: local('CenturyGothic'), url('../fonts/Centurygothic.woff') format('woff'), url('../fonts/Centurygothic.ttf') format('truetype'), url('../fonts/Centurygothic.svg#webfontd60hyItJ') format('svg');
+        font-weight: normal;
+        font-style: normal; }
+
+@font-face {
+        font-family: 'CenturyGothic-Bold';
+        src: url('../fonts/CenturyGothic-Bold.eot');
+        src: local('CenturyGothic'), url('../fonts/CenturyGothic-Bold.woff') format('woff'), url('../fonts/CenturyGothic-Bold.ttf') format('truetype'), url('../fonts/CenturyGothic-Bold.svg#webfontd60hyItJ') format('svg');
+        font-weight: normal;
+        font-style: normal; }
 
 html,
 button,
@@ -31,19 +42,19 @@ body {
 #image2 {width:240px; float:left; margin:4px 7px 0px 0px;}
 #image3 {width:240px; float:left; margin:4px 0px 0px 0px;}
 
-#nav {width:200px;margin:0px 30px 0px 0px;padding:17px 0px 0px 0px;min-height:500px;border-top:1px dotted #000;font-family:Century Gothic;}
+#nav {width:200px;margin:0px 30px 0px 0px;padding:17px 0px 0px 0px;min-height:500px;border-top:1px dotted #000;font-family:CenturyGothic;}
 
 #nav h1 a:hover{color:#000;}
 
 #content{float:right;width:734px;margin:0px 0px 30px 0px;border-top:1px solid #FFF;}
 
-#content ul{list-style-type:none; float:left;padding:0; font-family:Century Gothic; font-size:18px;margin:38px 107px 0px 0px;}
+#content ul{list-style-type:none; float:left;padding:0; font-family:CenturyGothic; font-size:18px;margin:38px 107px 0px 0px;}
 
 #content_text{float:right;width:734px;margin:0px 0px 30px 0px;border-top:1px dotted #000;}
 
 #content_text a{text-decoration:underline;}
 
-#menu{width:200px;border-top:1px dotted #000;height:300px;margin:22px 0px 0px 0px;font-size:18px;font-family:Century Gothic;}
+#menu{width:200px;border-top:1px dotted #000;height:300px;margin:22px 0px 0px 0px;font-size:18px;font-family:CenturyGothic;}
 
 #menu ul{list-style-type:none;;padding:0;}
 #menu ul li{line-height:30px;position:relative;}
@@ -62,23 +73,23 @@ footer ul{list-style-type:none;padding:0;margin:0;}
 
 footer ul li{float:left;padding:0;margin-right:42px;}
 
-.foot_text{margin-top:17px; font-size:12px;font-family:Century Gothic;}
+.foot_text{margin-top:17px; font-size:12px;font-family:CenturyGothic;}
 
 #last{margin-right:0px;}
 
 h1, h2, h3, h4, p{margin:0; padding:0;}
 
-h1{font-size:36px; line-height:34px;}
+h1{font-family:CenturyGothic-Bold; font-size:36px; line-height:34px;}
 
-h2{font-family:Century Gothic;font-size:36px; font-weight:normal;line-height: 68px;}
+h2{font-family:CenturyGothic;font-size:36px; font-weight:normal;line-height: 68px;}
 
-h3{font-family:Century Gothic;font-size:24px; font-weight:normal;}
+h3{font-family:CenturyGothic;font-size:24px; font-weight:normal;}
 
 h4{font-size:18px; font-weight:bold;}
 
-h5{font-family:Century Gothic;font-size:14px; font-weight:normal;}
+h5{font-family:CenturyGothic;font-size:14px; font-weight:normal;}
 
-h6{font-family:Century Gothic;font-size:18px; font-weight:normal; text-align:right; }
+h6{font-family:CenturyGothic;font-size:18px; font-weight:normal; text-align:right; }
 
 a {text-decoration: none; color:#000;}
 a:hover {color:#999;}
@@ -98,7 +109,7 @@ a.vimeo:hover {display:block;background-image:url(../img/vimeo.png); width:90px;
 
 #head_navi {list-style-type:none;margin:0;padding:0;line-height:0.5;}
 #head_navi li {float:left; font-size:18px; color:#000;margin: 0px 10px 0px 0px;}
-#head_navi li a {text-decoration:none; font-family:Century Gothic;}
+#head_navi li a {text-decoration:none; font-family:CenturyGothic;}
 
 #video_content{clear:both;margin:0;padding:29px 0px 0px 0px;}
 .tr_videos {align:left; vertical-align:top; height:310px;}
@@ -116,7 +127,7 @@ a.vimeo:hover {display:block;background-image:url(../img/vimeo.png); width:90px;
 
 
 
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
   #video_content {
     padding:26px 0px 0px 0px;
   }
